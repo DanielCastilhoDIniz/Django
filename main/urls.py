@@ -20,5 +20,5 @@ from myapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/<nome>/',views.hello ),
+    path('agenda/', views.lista_eventos)
 ]
