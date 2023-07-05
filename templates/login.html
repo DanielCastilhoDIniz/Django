@@ -7,13 +7,13 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form action="submit" method="POST">
+    <form action="submit" method="POST"> {% csrf_token %}
         <div align="center">
             <label for="">Usuario</label>
             <input type="text" name="username">
             <label for="">Password</label>
-            <input type="password" name="password" id="">
-            <button type="submit">Entrar</button>
+            <input type="password" name="password">
+            <button type="submit" >Entrar</button>
         
         </div>
     </form>
